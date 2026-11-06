@@ -80,7 +80,7 @@ hourly_avg <- dbplyr_resp |>
   ) |>
   arrange(sex, major_name, hour)
 
-print(hourly_avg, n = Inf)
+
 ```
 
 ```{r}
