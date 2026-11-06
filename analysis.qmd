@@ -1,0 +1,16 @@
+---
+title: "Analyzing Americans' Time Use"
+author: "Kaitlin Powell"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(dbplyr)
+```
